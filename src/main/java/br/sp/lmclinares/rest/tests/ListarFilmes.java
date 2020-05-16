@@ -41,7 +41,6 @@ public class ListarFilmes extends BaseTest {
 			.when()
 				.get("search/movie")
 			.then()
-			.log().all()
 			.statusCode(200)
      		.body("total_results", is(0));
 	}
