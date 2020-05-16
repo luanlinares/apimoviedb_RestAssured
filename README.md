@@ -2,14 +2,14 @@
 
 1. [Instalação e Configuração](https://github.com/luanlinares/apimoviedb_RestAssured/blob/master/README.md#instalacao-e-configuracao)  
 
-2. [Execução dos testes](https://github.com/luanlinares/apimoviedb_RestAssured/blob/master/README.md#execucao-dos-testes)  
+2. [Execução dos Testes](https://github.com/luanlinares/apimoviedb_RestAssured/blob/master/README.md#execucao-dos-testes)  
 
 3. [Estrutura do Projeto](https://github.com/luanlinares/apimoviedb_RestAssured/blob/master/README.md#estrutura-do-projeto)
 
 4. [Considerações Gerais](https://github.com/luanlinares/apimoviedb_RestAssured/blob/master/README.md#consideracoes-gerais)  
 
 
-> # Instalação e Configuração
+> # Instalacao e Configuracao
 
 **Java**
 
@@ -68,7 +68,7 @@ jUnit.
         `https://github.com/luanlinares/apimoviedb_RestAssured.git`
 
 
->  # Execução dos Testes
+>  # Execucao dos Testes
 
 **Eclipse IDE/**
 
@@ -101,7 +101,7 @@ Local onde são instaladas as dependências solicitadas no pom.xml, além de dem
 Pacote onde constam as ckasses de teste. 
 
 
->  # Considerações Gerais
+>  # Consideracoes Gerais
 
 **Quais testes foram realizados?**
  
