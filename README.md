@@ -24,18 +24,17 @@ Esse projeto foi realizado utilizando Java como linguagem e o JDK Kit 8.
     a. Ative a instalação padrão.
     b. Não esqueça de setar as variáveis de ambiente. 
 
-4.  Accesse o terminal e verifique se a instalação foi realizada corretamente
+4. Accesse o terminal e verifique se a instalação foi realizada corretamente
     
    Execute o comando
 
     `java -version`
 
-    Se a sua instalação foi realizada corretamente, você deve visualizar algo parecido com:
+ Se a sua instalação foi realizada corretamente, você deve visualizar algo parecido com:
         java version "1.8.0_251"
         Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
         Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
-    
-5. On Consoler, execute:
+
 
 *Importante:*
 Caso tenha alguma versão do java ja instalada, desinstale antes de instalar a versão 8.
@@ -69,7 +68,7 @@ jUnit.
         `https://github.com/luanlinares/apimoviedb_RestAssured.git`
 
 
-    # Execução dos Testes
+>  # Execução dos Testes
 
 **Eclipse IDE/**
 
@@ -104,7 +103,6 @@ Pacote onde constam as ckasses de teste.
 
 >  # Considerações Gerais
 
-
 **Quais testes foram realizados?**
  
 1. Listagem de filmes mais bem avaliados.
@@ -113,6 +111,7 @@ Pacote onde constam as ckasses de teste.
 
 
 **Site The Movie database**
+
 https://www.themoviedb.org/
 
 
