@@ -16,8 +16,7 @@ public class ListarFilmes extends BaseTest {
 			.when()
 				.get("movie/top_rated")
 			.then()
-			.statusCode(200)
-			.body("results.original_title[2]", containsString("Justice League Dark: Apokolips War"));
+			.statusCode(200);
 	}
 	
 	@Test
@@ -29,7 +28,7 @@ public class ListarFilmes extends BaseTest {
 				.get("search/movie")
 			.then()
 			.statusCode(200)
-     		.body("total_results", is(120))
+     		.body("total_pages", is(6))
 			.body("results.title[4]", is("Batman Returns"));
 	}
 	
@@ -40,7 +39,7 @@ public class ListarFilmes extends BaseTest {
 			.queryParam("query", "alohomora321")
 			.when()
 				.get("search/movie")
-			.then()
+			.then()	
 			.statusCode(200)
      		.body("total_results", is(0));
 	}
